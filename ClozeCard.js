@@ -16,7 +16,7 @@ function ClozeCard(text, cloze){
         var index = text.indexOf(cloze);
         
         if(tokens.length <= 1){
-            throw new ClozeNotFoundException("Cloze is not found in the text".red);
+//             throw new ClozeNotFoundException("Cloze is not found in the text".red);
         } else {
             if (index === 0){
                 partialText = "...";
